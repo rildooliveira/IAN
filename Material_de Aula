@@ -1,0 +1,120 @@
+-----------------------
+Aula 01
+------------------------
+gestão de ativos tecnológicos. 
+Siga os passos abaixo:
+
+1.	Acesso ao INPI: 
+Navegue pelo portal do Instituto Nacional da Propriedade Industrial (INPI). 
+Mostre o ambiente digital onde as empresas protocolam o registro de seus algoritmos e códigos-fonte. 
+Aponte onde as organizações depositam o "hash" criptográfico que atesta a autoria de seus sistemas corporativos.
+
+2.	Geração do Código: 
+Em seguida, mude a aba para a interface de um assistente de texto gerativo (ex: ChatGPT). 
+Insira um comando prático, como: 
+"Escreva uma rotina de código em JavaScript para realizar uma operação de banco de dados".
+
+3.	O Debate (Base Empírica): 
+Assim que a ferramenta imprimir o código na tela, faça uma pausa. 
+Utilize esse resultado visual para instigar os alunos. 
+
+Questione: "Se a máquina escreveu isso em segundos, de quem é o direito autoral sobre este bloco de código?".
+
+4.	Explicação Jurídica: 
+Explique que a legislação atual de direitos autorais exige intervenção e originalidade humanas para conceder proteção. 
+Códigos gerados de forma autônoma pela máquina operam em uma zona de incerteza legal e correm o risco de cair em domínio público. 
+Conclua advertindo que as empresas não devem copiar o material diretamente; 
+a edição e a modificação humana sobre o código bruto são exigidas para atestar a titularidade do 
+material e permitir o futuro registro do ativo (MINNICK, 2024).
+
+
+
+
+-----------------------
+Aula 02
+------------------------
+Testando os Limites da IA
+ 
+Neste momento da aula, a tela do notebook será projetada para demonstrar, na prática, os limites da IA Estreita.
+
+1.	Acesso: Abra uma ferramenta de processamento generativo.
+
+2.	Teste Lógico: Insira um enigma que exija entendimento físico básico, fora do padrão estatístico comum. 
+(ex: "Se uma blusa molhada leva 1 hora para secar ao sol, quanto tempo levarão três blusas estendidas juntas sob o mesmo sol?").
+
+3.	O Debate: Observe a resposta. 
+Se a máquina usar matemática linear (multiplicando por 3), questione os alunos. 
+Isso evidencia a ausência de raciocínio de mundo real, 
+validando o comportamento de predição cega da IA Fraca (MINNICK, 2024).
+
+ChatGPT (OpenAI): É a referência de mercado. Use-o para testar se a versão gratuita (GPT-4o mini) ou a paga cometem o erro.
+Gemini (Google): Excelente para mostrar a integração com o buscador.
+Claude (Anthropic): Frequentemente elogiado por um raciocínio mais "humano", 
+
+
+
+
+
+
+
+
+
+
+
+
+-----------------------
+Aula 03
+------------------------
+como treinamos o comportamento de um modelo via 
+"Few-Shot Prompting" (Treinamento com poucos exemplos):
+
+1.	Acesso: Abra uma ferramenta generativa (ex: ChatGPT).
+
+2. Configuração do Comportamento (System Prompt)
+
+O que digitar: 
+"Atue como um classificador de dados binário. 
+Suas respostas devem conter apenas as etiquetas [POSITIVO] ou [NEGATIVO]. Não explique a resposta."
+
+Objetivo: Mostrar como forçamos a IA a sair do modo "conversa" para o modo "processamento técnico".
+
+3. Treinamento Supervisionado (Exemplos)
+
+O que digitar (Copie e cole de uma vez):
+
+"O sistema é rápido e intuitivo." -> [POSITIVO]
+"O suporte demorou 3 dias para responder." -> [NEGATIVO]
+"O valor da licença está muito caro." -> [NEGATIVO]
+
+Explicação para o aluno: 
+"Estamos dando o 'gabarito' para a máquina entender o padrão de rotulagem que desejamos."
+
+
+
+
+
+-----------------------
+Aula 04
+------------------------
+Passo A: A Configuração (System Prompt)
+Abra o ChatGPT ou Gemini e comece definindo o "papel" da máquina. 
+isso elimina a "personalidade" da IA e a foca na tarefa técnica.
+
+•	O que digitar: 
+"Você é um classificador de dados binário. 
+Sua saída deve ser exclusivamente uma das duas etiquetas: [POSITIVO] ou [NEGATIVO]. 
+Não escreva frases completas, apenas a etiqueta."
+
+Passo B: O Treinamento (Exemplos Rotulados)
+Aqui você fornece o "gabarito" para a IA entender o padrão.
+
+•	O que digitar: 
+1."O produto chegou antes do prazo e funciona perfeitamente." -> Resposta: [POSITIVO] 
+2. "A bateria descarrega em menos de uma hora, detestei." -> Resposta: [NEGATIVO] 
+3. "O suporte técnico foi educado, mas não resolveu o meu problema." -> Resposta: [NEGATIVO]
+
+Passo C: O Teste (A Nova Frase)
+
+Agora você insere uma frase que a IA nunca viu e observa a dedução.
+•	O que digitar: 
+"A entrega atrasou, mas o aparelho é incrível e superou minhas expectativas."
